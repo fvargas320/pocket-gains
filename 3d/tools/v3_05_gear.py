@@ -192,7 +192,7 @@ def grid_obj(name,grid,uvs,close=True,cap=None,cap_uv=None,mat_idx=None):
     return link(bpy.data.objects.new(name,me))
 # ---------------- SLOUCHY BEANIE with cuff + antenna holes
 NT=96
-BC=Vector((0.0,0.040,0.825)); BR=(0.108,0.118,0.080); BT=Matrix.Rotation(math.radians(-28),3,'X')
+BC=Vector((0.0,0.052,0.822)); BR=(0.098,0.122,0.078); BT=Matrix.Rotation(math.radians(-36),3,'X')
 def bag_r(d):
     Ri=BT.inverted(); o=Ri@(HC-BC); dd=Ri@d
     o=Vector((o.x/BR[0],o.y/BR[1],o.z/BR[2])); dd=Vector((dd.x/BR[0],dd.y/BR[1],dd.z/BR[2]))
@@ -274,8 +274,8 @@ def gl_mat(i,j):
     az=-A0+2*A0*(i+0.5)/NA
     return 1 if (abs(az)<=LENS and j<5) else 0
 gl=grid_obj('Zeek_Sunglasses',grid,uvs,close=False,mat_idx=gl_mat)
-gl.data.materials.append(toon_shiny('Zeek_Shades_Frame',(0.04,0.04,0.05,1),0.6,0.5,0.3,0.6))
-lm=toon_shiny('Zeek_Shades_Lens',(0.10,0.05,0.22,1),0.7,0.9,0.15,0.45)
+gl.data.materials.append(toon_shiny('Zeek_Shades_Frame',(0.04,0.04,0.05,1),0.6,0.35,0.3,0.88))
+lm=toon_shiny('Zeek_Shades_Lens',(0.10,0.05,0.22,1),0.75,0.55,0.12,0.82)
 # lens gradient (top darker purple -> bottom teal tint) via UV v
 nt=lm.node_tree; uvn=nt.nodes.new('ShaderNodeUVMap'); sp=nt.nodes.new('ShaderNodeSeparateXYZ'); nt.links.new(uvn.outputs[0],sp.inputs[0])
 cr=nt.nodes.new('ShaderNodeValToRGB'); cr.color_ramp.elements[0].color=(0.05,0.35,0.40,1); cr.color_ramp.elements[1].color=(0.12,0.03,0.25,1)
