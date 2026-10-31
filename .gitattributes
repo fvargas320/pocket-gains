@@ -1,0 +1,17 @@
+# Git LFS: large binary assets
+*.glb  filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.fbx  filter=lfs diff=lfs merge=lfs -text
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.bvh  filter=lfs diff=lfs merge=lfs -text
+*.npy  filter=lfs diff=lfs merge=lfs -text
+# All renders/textures/refs under 3d/ (includes 3d/tex)
+3d/**/*.png filter=lfs diff=lfs merge=lfs -text
+3d/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+3d/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+# Text normalization
+*.md   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.txt  text

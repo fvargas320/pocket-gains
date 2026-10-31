@@ -1,0 +1,255 @@
+{
+ "head_smirk": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   359,
+   375
+  ],
+  "sheet_xy": [
+   109,
+   161
+  ]
+ },
+ "head_chill": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   364,
+   376
+  ],
+  "sheet_xy": [
+   578,
+   160
+  ]
+ },
+ "head_hyped": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   365,
+   379
+  ],
+  "sheet_xy": [
+   1066,
+   158
+  ]
+ },
+ "head_tired": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   366,
+   378
+  ],
+  "sheet_xy": [
+   1563,
+   160
+  ]
+ },
+ "antenna_left": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   151,
+   318
+  ],
+  "sheet_xy": [
+   514,
+   649
+  ]
+ },
+ "antenna_right": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   153,
+   318
+  ],
+  "sheet_xy": [
+   771,
+   649
+  ]
+ },
+ "prop_dumbbell": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   491,
+   200
+  ],
+  "sheet_xy": [
+   1173,
+   731
+  ]
+ },
+ "prop_barbell": {
+  "sheet": "sheet-heads-props.png",
+  "size": [
+   1589,
+   340
+  ],
+  "sheet_xy": [
+   229,
+   1064
+  ]
+ },
+ "torso_noodle": {
+  "sheet": "sheet-torsos.png",
+  "size": [
+   385,
+   646
+  ],
+  "sheet_xy": [
+   151,
+   447
+  ]
+ },
+ "torso_normal": {
+  "sheet": "sheet-torsos.png",
+  "size": [
+   470,
+   671
+  ],
+  "sheet_xy": [
+   709,
+   426
+  ]
+ },
+ "torso_buff": {
+  "sheet": "sheet-torsos.png",
+  "size": [
+   637,
+   708
+  ],
+  "sheet_xy": [
+   1309,
+   397
+  ]
+ },
+ "upper_arm_noodle": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   71,
+   551
+  ],
+  "sheet_xy": [
+   421,
+   163
+  ]
+ },
+ "upper_arm_normal": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   114,
+   552
+  ],
+  "sheet_xy": [
+   932,
+   162
+  ]
+ },
+ "upper_arm_buff": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   239,
+   600
+  ],
+  "sheet_xy": [
+   1445,
+   123
+  ]
+ },
+ "forearm_noodle": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   105,
+   578
+  ],
+  "sheet_xy": [
+   404,
+   798
+  ]
+ },
+ "forearm_normal": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   136,
+   587
+  ],
+  "sheet_xy": [
+   910,
+   796
+  ]
+ },
+ "forearm_buff": {
+  "sheet": "sheet-arms-v2.png",
+  "size": [
+   190,
+   619
+  ],
+  "sheet_xy": [
+   1457,
+   793
+  ]
+ },
+ "thigh_noodle": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   84,
+   662
+  ],
+  "sheet_xy": [
+   430,
+   126
+  ]
+ },
+ "thigh_normal": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   183,
+   665
+  ],
+  "sheet_xy": [
+   898,
+   123
+  ]
+ },
+ "thigh_buff": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   268,
+   672
+  ],
+  "sheet_xy": [
+   1413,
+   119
+  ]
+ },
+ "shin_noodle": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   158,
+   530
+  ],
+  "sheet_xy": [
+   390,
+   867
+  ]
+ },
+ "shin_normal": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   184,
+   524
+  ],
+  "sheet_xy": [
+   895,
+   874
+  ]
+ },
+ "shin_buff": {
+  "sheet": "sheet-legs-v2.png",
+  "size": [
+   196,
+   534
+  ],
+  "sheet_xy": [
+   1445,
+   863
+  ]
+ }
+}
